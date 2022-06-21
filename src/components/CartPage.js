@@ -11,7 +11,7 @@ function CartPage({cartItems, addCart, onRemove, removeMenu, removeAll}) {
 
     return (
         <>
-        {/* Breadcrumb */}
+        
         <ul className='breadcrumb'>
                 <li className='breadcrumb-item'><Link to=''> Home </Link></li>
                 <li className='breadcrumb-item'><Link style={{color:"#000000"}} to='/CartPage'>Cart</Link></li>
