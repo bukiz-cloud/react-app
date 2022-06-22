@@ -8,6 +8,7 @@ function CartPage({cartItems, addCart, onRemove, removeMenu, removeAll}) {
     const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.cost, 0);
     const deliveryPrice = itemsPrice !== 0 ?  1000 : 0;
     const totalPrice = itemsPrice + deliveryPrice;    
+    
 
     return (
         <>
